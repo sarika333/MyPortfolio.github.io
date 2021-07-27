@@ -1,0 +1,126 @@
+@media screen {
+    * { font-family: sans-serif }
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  #navbar{
+    width:100%;
+    height:90px;
+    background-color:#CC0033;
+    position:fixed;
+  }
+  #navbar ul{
+    float:right;
+    margin-top:20px;
+    margin-right:20px;
+  }
+  #navbar ul li{
+    display:inline-block;
+    margin:10px 20px;
+  }
+  #navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:24px;
+  }
+  
+  #welcome-section{
+    width:100%;
+    height:100vh;
+    background-image:url("https://images.unsplash.com/photo-1420310414923-bf3651a89816?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    background-color: #031818;
+   
+  }
+  
+  #welcome-section h1{
+    color:white;
+    font-size:42px;
+    padding-top:250px;
+    
+  }
+  #welcome-section p{
+    color:#CC0033;
+    font-size:28px;
+    padding-top:15px;
+  }
+  #projects{
+    width:100%;
+    height:500px;
+    background-color:#008080;
+  }
+  #projects h2{
+    color:white;
+    text-align:center;
+    font-size:32px;
+    padding-top:30px;
+    
+    
+  }
+  .projects-container{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    max-width:810px;
+    margin: 40px auto 0;
+  }
+  .project-tile{
+    max-width:250px;
+    background-color: #2F4F4F;
+    margin:10px;
+    text-decoration:none;
+
+  }
+  .project-tile img{
+    max-width:100%;
+
+  }
+  .project-tile p{
+    font-size:20px;
+    padding:10px;
+    color:white;
+    text-align:center;
+  }
+  
+  #contacts{
+    width:100%;
+    height:350px;
+    background-color:gray;
+  }
+  #contacts h3{
+    color:white;
+    font-size:42px;
+    text-align:center;
+    padding-top:100px;
+  }
+  #contacts ul{
+    text-align:center;
+    padding:40px;
+  }
+  #contacts ul li{
+    margin: 10px 40px;
+    display:inline-block;
+  }
+  #profile-link{
+    color:#FFFAF0;
+    
+    font-size:22px;
+   
+  }
+ #footer{
+     background-color: #CC0033;
+     width:100%;
+     height:60px;
+     
+ }
+  #footer p{
+    color:white;
+    text-align:center;
+    font-size:18px;
+    padding:15px;
+  }
